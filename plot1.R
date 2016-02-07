@@ -18,7 +18,6 @@ hist(as.numeric(powerConsumption$Global_active_power), col = "red", xlab = "Glob
 dev.copy(png, file = "ExData_Plotting1/plot1.png", width = 480, height = 480, units = "px")
 =======
 dev.copy(png, file = "plot1.png", width = 480, height = 480, units = "px")
->>>>>>> 05baa8398512afefde9d911282fcbc6872ca2816
 
 # Close PNG device
 dev.off()

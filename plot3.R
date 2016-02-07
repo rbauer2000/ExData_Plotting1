@@ -24,7 +24,6 @@ legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_met
 dev.copy(png, file = "ExData_Plotting1/plot3.png", width = 480, height = 480)
 =======
 dev.copy(png, file = "plot3.png", width = 480, height = 480)
->>>>>>> 05baa8398512afefde9d911282fcbc6872ca2816
 
 # Close PNG device
 dev.off()
