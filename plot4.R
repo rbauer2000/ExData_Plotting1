@@ -30,10 +30,7 @@ with(powerConsumption, plot(datetime, Voltage, type = "l"))
 
 
 # Copy to file
-<<<<<<< HEAD
 dev.copy(png, file = "ExData_plotting1/plot4.png", width = 480, height = 480)
-=======
-dev.copy(png, file = "plot4.png", width = 480, height = 480)
 
 # Close PNG device
 dev.off()

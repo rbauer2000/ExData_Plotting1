@@ -17,11 +17,7 @@ par(mfrow=c(1,1))
 with(powerConsumption, plot(datetime, Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
 
 # Copy to file
-<<<<<<< HEAD
-dev.copy(png, file = "ExData_Plotting/plot2.png", width = 480, height = 480, units = "px")
-=======
-dev.copy(png, file = "plot2.png", width = 480, height = 480, units = "px")
-
+dev.copy(png, file = "ExData_Plotting1/plot2.png", width = 480, height = 480, units = "px")
 
 # Close PNG device
 dev.off()
